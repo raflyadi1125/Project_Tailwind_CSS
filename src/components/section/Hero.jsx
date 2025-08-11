@@ -15,10 +15,10 @@ const Hero = () => {
                         kandidat berkualitas hanya dalam hitungan hari, jam, menit, dan detik
                     </p>
                     <div className='mt-6 flex flex-wrap gap-4'>
-                        <button className='bg-blue-950 hover:bg-blue-700 text-black font-mono px-6 py-3 rounded-lg'>
+                        <button className='bg-blue-950/70 hover:bg-blue-700 text-black font-mono px-6 py-3 rounded-lg'>
                             post a job
                         </button>
-                        <button className='border-blue-950 bg-blue-700/70 hover:bg-gray-800 px-6 py-3 rounded-lg font-mono text-gray-500 transition'>
+                        <button className='border-blue-950 bg-blue-950/70 hover:bg-blue-700 px-6 py-3 rounded-lg font-mono text-black transition'>
                             Browse Talent
                         </button>
                     </div>
