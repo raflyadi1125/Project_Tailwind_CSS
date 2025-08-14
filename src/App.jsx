@@ -1,14 +1,23 @@
-import Navbar from "./components/navbar"
-import AppRouter from "./router"
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+
+import Homepage from "./pages/Homepage";
 
 function App() {
-
   return (
-    <>
+    <div>
+      
+      {/* navbar */}
       <Navbar/>
-      <AppRouter/>
-    </>
-  )
+
+      {/* content */}
+      <Homepage/>
+
+      {/* footer */}
+      <Footer/>
+
+    </div>
+  );
 }
 
-export default App
+export default App;
